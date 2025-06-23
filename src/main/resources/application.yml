@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sp_first_lesson?createDatabaseIfNotExist=true
+    username: root
+    password: 123456Abc
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sal: false
